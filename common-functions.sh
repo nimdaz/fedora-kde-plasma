@@ -44,13 +44,3 @@ kcm_config(){
     kcmshell6 --highlight $module > /dev/null 2>&1
     read -p "Press enter to start the next part: "
 }
-
-# install_flatpaks(){
-# 	remote=$1
-# 	local -n flatpaks=$2
-# 	if [ -n "${flatpaks}" ]; then
-# 		log "### Installing ${#flatpaks[@]} packages from remote '${remote}': ###"
-# 		log "${flatpaks[@]}"
-# 		flatpak install $remote ${flatpaks[@]}
-# 	fi
-# }
