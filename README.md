@@ -24,18 +24,17 @@ The setup is partially automated, and partially manual.
 ### 3. Post-installation
 - In "Welcome center": Enable third party repos
 - Connect to the internet
-- script > system-setup-automated.sh
+- script: `system-setup-automated.sh`
 - Open Discover and update all packages
 - Reboot system
-- script > bitwarden-setup.sh
-- script > syncthing-setup.sh
-- script > system-setup-guided.sh
-- script > mullvad-setup.sh
-- script > signal-setup.sh
-- script > ungoogled-chromium-setup.sh
+- script: `bitwarden-setup.sh`
+- script: `syncthing-setup.sh`
+- script: `system-setup-guided.sh`
+- script: `mullvad-setup.sh`
+- script: `signal-setup.sh`
+- script: `ungoogled-chromium-setup.sh`
 
-## This repository
-### TODO
+## TODO
 - Add backup-setup.sh
 	- Pika for local backups?
 	- Restic for remote backups?
