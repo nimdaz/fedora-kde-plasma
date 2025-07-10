@@ -5,6 +5,7 @@ source common-functions.sh
 RPMS_INSTALL=(
     'neovim'
     'git-core'
+    'inxi'
 )
 
 RPMS_REMOVE=(
